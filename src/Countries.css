@@ -1,0 +1,43 @@
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.flag-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Search {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    padding: 10px;
+}
